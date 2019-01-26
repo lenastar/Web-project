@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face
+{
+  font-family: Intro Cond;
+  src: url('./IntroCondLightFree.otf') format('opentype');
+}
+
+body {
+  font-family: 'Intro Cond';
+  margin: 0;
+
+}
+
+a
+{
+  color: #c9bfdf;
+  text-decoration: none;
+}

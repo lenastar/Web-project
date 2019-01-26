@@ -1,0 +1,42 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h4>О компании Индивидуальный предприниматель {{client.name}}</h4>
+    </div>
+  </div>
+<div class="row">
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href={{client.products[0].imagePath}}>
+        <img src={{client.products[0].imagePath}} alt="Bali" style="height:200px">
+        <div class="caption">
+          <p>{{client.products[0].name}}</p>
+          <p>{{client.products[0].cost}} руб.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href={{client.products[1].imagePath}}>
+        <img src={{client.products[1].imagePath}} alt="Mexico" style="height:200px">
+        <div class="caption">
+          <p>{{client.products[1].name}}</p>
+          <p>{{client.products[1].cost}} руб.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href={{client.products[2].imagePath}}>
+        <img src={{client.products[2].imagePath}} alt="Lysva" style="height:200px">
+        <div class="caption">
+          <p>{{client.products[2].name}}</p>
+          <p>{{client.products[2].cost}} руб.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+</div>

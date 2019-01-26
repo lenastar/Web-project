@@ -1,0 +1,60 @@
+@font-face
+{
+  font-family: Intro Cond;
+  src: url('./IntroCondLightFree.otf') format('opentype');
+}
+
+.payment-panel {
+  margin: 10px 100px;
+  padding: 10px;
+  box-shadow: 0 5px 14px -2px #f7bdbd;
+  height: 100%;
+}
+
+.payment-panel__header
+{
+  height: 50px;
+}
+
+li, button
+{
+  background: rgba(201, 191, 223, .29);
+  height: 30px;
+  margin: 2px;
+  padding: 3px;
+}
+
+li:hover, button:hover
+{
+  background: linear-gradient(45deg, #f7bdbd, #C5DDE8);
+  cursor: pointer;
+}
+
+.payment-panel__pay_header > button
+{
+  font-size: .8em;
+}
+
+.form__card
+{
+  border-radius: 20px;
+  box-shadow: 0 0 20px 3px #d2c7e8;
+  padding: 20px;
+  width: 350px;
+  height: 175px;
+  margin: 10px;
+}
+
+.form__card > .row
+{
+  padding: 2px 0;
+}
+
+.form__card__image
+{
+  background-image: url("http://roadnet.ru/images/Visa-MasterCard-Maestro-Mir.png");
+  height: 25px;
+  width: 140px;
+  background-size: cover;
+}
+
