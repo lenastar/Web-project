@@ -19,7 +19,7 @@ export class LoginService {
 
   getClientInfo() {
     const headers = new HttpHeaders().set('x-access-token', LoginService.accessToken);
-    return this.http.get('http://localhost:3000/users/getClientInfo0', {headers: headers});
+    return this.http.get('http://localhost:3000/users/getClientInfo', {headers: headers});
   }
 
 }
