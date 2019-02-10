@@ -5,7 +5,7 @@
   src: url('./IntroCondLightFree.otf') format('opentype');
 }
 
-body {
+* {
   font-family: 'Intro Cond';
   margin: 0;
 
@@ -16,3 +16,19 @@ a
   color: #c9bfdf;
   text-decoration: none;
 }
+
+li, button
+{
+  background: rgba(201, 191, 223, .29);
+}
+
+li:hover, button:hover
+{
+  background: linear-gradient(45deg, #f7bdbd, #C5DDE8);
+  cursor: pointer;
+}
+
+.container{
+padding: 10px;
+box-shadow: 0 5px 14px -2px #f7bdbd;
+height: 100%;}
